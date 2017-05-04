@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iphoto="urn:iphoto:property" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>Koor Kaskedieze Fotoalbums</title>
+    <link>http://www.kaskedieze.nl/Kaskedieze/Fotoalbums/Fotoalbums.html</link>
+    <description>Koor Kaskedieze Fotoalbums</description>
+    <item>
+      <title>Saens Korenfestival 23 apr 2016</title>
+      <link>http://www.kaskedieze.nl/Kaskedieze/Fotoalbums/Paginas/Saens_Korenfestival_23_apr_2016.html</link>
+      <guid isPermaLink="false">342d8c63-470a-4a01-b3d7-5d8d0a6ba734</guid>
+    </item>
+    <item>
+      <title>Radboud Medemblik 22 mrt 2015</title>
+      <link>http://www.kaskedieze.nl/Kaskedieze/Fotoalbums/Paginas/Radboud_Medemblik_22_mrt_2015.html</link>
+      <guid isPermaLink="false">56592591-f3d9-4ab5-a081-e76c9fd185c5</guid>
+    </item>
+    <item>
+      <title>Havenfeest Leer 10 aug 2013</title>
+      <link>http://www.kaskedieze.nl/Kaskedieze/Fotoalbums/Paginas/Havenfeest_Leer_10_aug_2013.html</link>
+      <guid isPermaLink="false">e03e0026-d89c-4e14-ac96-b989751843bd</guid>
+    </item>
+    <item>
+      <title>Over de wereldzeeën 18 mrt 2012</title>
+      <link>http://www.kaskedieze.nl/Kaskedieze/Fotoalbums/Paginas/Over_de_wereldzeeen_18_mrt_2012.html</link>
+      <guid isPermaLink="false">c09d2984-057e-440a-b7ac-7bdef6b62e11</guid>
+    </item>
+    <item>
+      <title>Concertreis Morvan juli 2009</title>
+      <link>http://www.kaskedieze.nl/Kaskedieze/Fotoalbums/Paginas/Concertreis_Morvan_juli_2009.html</link>
+      <guid isPermaLink="false">f2f08ba2-f4e2-4cfe-aafb-c2feac5d7dae</guid>
+    </item>
+    <item>
+      <title>Keizersgrachtkerk maart 2008</title>
+      <link>http://www.kaskedieze.nl/Kaskedieze/Fotoalbums/Paginas/Keizersgrachtkerk_maart_2008.html</link>
+      <guid isPermaLink="false">1f1df681-d3d3-4a94-b8d1-caac942d3fdf</guid>
+    </item>
+  </channel>
+</rss>

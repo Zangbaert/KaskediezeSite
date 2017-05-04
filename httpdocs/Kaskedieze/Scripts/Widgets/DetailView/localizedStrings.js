@@ -1,0 +1,2 @@
+
+(function(){var strings={};strings['Back to Album']='Terug naar album';strings['Download']='Download';strings['Previous']='Vorige';strings['Next']='Volgende';strings['Play Slideshow']='Speel diavoorstelling af';RegisterWidgetStrings("com-apple-iweb-widget-detailview",strings);})();

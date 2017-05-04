@@ -1,0 +1,2 @@
+
+(function(){var strings={};strings['Subscribe']='Abonneer';strings['Back to Index']='Terug naar index';strings['Add Photo']='Voeg foto toe';strings['Play Slideshow']='Speel diavoorstelling af';RegisterWidgetStrings("com-apple-iweb-widget-headercontrols",strings);})();
