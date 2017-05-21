@@ -4,6 +4,7 @@ body {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-size: 100%;
   background-color: rgb(245, 245, 215);
+  max-width: 700px;
 }
 
 h1 {
@@ -11,12 +12,14 @@ h1 {
   font-weight: lighter;
   font-stretch: expanded;
   font-size: 2.5em;
+  background-image: url('../images/BlauwTop.png');
+  background-color: rgb(208,232,233);
+  background-size: 700px 85px;
+  background-repeat: no-repeat;
 }
 
 nav {
-  border-top: 1px;
-  border-bottom: 1px;
-  padding: 5px 20px;
+  padding: 1px 3px;
 }
 
 nav ul {
@@ -24,7 +27,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(256,220,30);
+    background-color: rgb(208,232,233);
 }
 
 nav li {
@@ -35,12 +38,12 @@ nav li a {
     display: block;
     color: indigo;
     text-align: center;
-    padding: 16px;
+    padding: 5px 10px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: rgb(242,200,0);
+    background-color: rgb(227,244,245);
 }
 
 footer {
