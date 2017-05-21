@@ -5,21 +5,38 @@ body {
   font-size: 100%;
   background-color: rgb(245, 245, 215);
   max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-h1 {
-  font-style: italic;
-  font-weight: lighter;
-  font-stretch: expanded;
-  font-size: 2.5em;
+header {
+  margin: 0px;
+  padding: 0px;
   background-image: url('../images/BlauwTop.png');
   background-color: rgb(208,232,233);
   background-size: 700px 85px;
   background-repeat: no-repeat;
 }
 
+h1 {
+  margin: 0px;
+  padding: 0px;
+  height: 85px;
+  font-style: italic;
+  font-weight: lighter;
+  font-stretch: expanded;
+  font-size: 2.5em;
+  display: table-cell;
+  vertical-align: middle;
+  text-indent: 0.2em;
+}
+
+h2 {
+  font-weight: lighter;
+}
+
 nav {
-  padding: 1px 3px;
+  padding: 0px;
 }
 
 nav ul {
@@ -38,7 +55,8 @@ nav li a {
     display: block;
     color: indigo;
     text-align: center;
-    padding: 5px 10px;
+    font-size: 0.9em;
+    padding: 2px 7px;
     text-decoration: none;
 }
 
@@ -46,9 +64,16 @@ nav li a:hover {
     background-color: rgb(227,244,245);
 }
 
+main{
+  margin: 10px 50px 10px 250px;
+  font-size: 130%;
+  line-height: 130%;
+}
+
 footer {
   border-style: dotted;
-  font-size: 0.7em;
+  border-color: indigo;
+  font-size: 0.9em;
 }
 
 footer p {
