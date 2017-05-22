@@ -7,15 +7,32 @@ body {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0px;
 }
 
 header {
   margin: 0px;
   padding: 0px;
-  background-image: url('../images/BlauwTop.png');
-  background-color: rgb(208,232,233);
   background-size: 700px 85px;
   background-repeat: no-repeat;
+}
+
+.blauwtop {
+  background-image: url('../images/BlauwTop.png');
+  background-color: rgb(208,232,233);
+
+}
+
+.geeltop {
+  background-image: url('../images/GeelTop.png');
+  background-color: rgb(249,242,186);
+
+}
+
+.groentop {
+  background-image: url('../images/GroenTop.png');
+  background-color: rgb(217,235,160);
+
 }
 
 h1 {
@@ -39,35 +56,50 @@ nav {
   padding: 0px;
 }
 
-nav ul {
+nav ul.blauw {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(208,232,233);
 }
 
-nav li {
-    float: left;
+.blauw {
+  background-color: rgb(208,232,233);
 }
 
-nav li a {
-    display: block;
-    color: indigo;
-    text-align: center;
-    font-size: 0.9em;
-    padding: 2px 7px;
-    text-decoration: none;
+.geel{
+  background-color: rgb(249,242,186);
 }
 
-nav li a:hover {
-    background-color: rgb(227,244,245);
+.groen {
+  background-color: rgb(217,235,160);
 }
 
-main{
+.vertical-container {
+  height: 300px;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+
+.welkom {
   margin: 10px 50px 10px 250px;
   font-size: 130%;
   line-height: 130%;
+}
+
+.naam {
+  margin: 0px;
+  padding: 10px 0px;
+  font-size: 120%;
+  line-height: 120%;
+}
+
+.right {
+  text-align: right;
 }
 
 footer {
