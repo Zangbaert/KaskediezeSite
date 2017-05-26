@@ -28,3 +28,7 @@ nav li a {
 nav li a:hover {
     background-color: rgb(227,244,245);
 }
+
+nav li a:not([href]):hover {
+    background-color: rgb(208,232,233);
+}

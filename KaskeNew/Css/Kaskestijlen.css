@@ -48,10 +48,6 @@ h1 {
   text-indent: 0.2em;
 }
 
-h2 {
-  font-weight: lighter;
-}
-
 nav {
   padding: 0px;
 }
@@ -85,10 +81,62 @@ nav ul.blauw {
           justify-content: center;
 }
 
-.welkom {
+main {
+  background-color: lightyellow;
+}
+
+main.foto {
+  background-image: url('../images/fotos_bkgnd.jpg');
+  background-repeat: repeat-y;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 1.3em;
+}
+
+h2.film {
+    padding-top: 10px;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.contact {
+    font-size: 1.0em;
+    line-height: 1.1em;
+}
+
+main.contact table tr p a {
+  text-decoration: none;
+}
+
+h2.contact {
+  font-size: 1.4em;
+  color: mediumblue;
+  text-decoration: underline;
+  text-decoration-color: mediumblue;
+  text-decoration-style: solid;
+}
+
+h3.contact {
+  color: mediumblue;
+  text-decoration: underline;
+}
+
+div.film {
+  text-align: center;
+}
+
+div.welkom {
   margin: 10px 50px 10px 250px;
   font-size: 130%;
   line-height: 130%;
+}
+
+div.palmboom {
+  margin: 10px 250px 10px 15px;
+  font-size: 120%;
+  line-height: 120%;
 }
 
 .naam {
@@ -96,6 +144,11 @@ nav ul.blauw {
   padding: 10px 0px;
   font-size: 120%;
   line-height: 120%;
+}
+
+.film {
+  font-size: 110%;
+  line-height: 110%;
 }
 
 .right {
