@@ -1,4 +1,4 @@
-// Script voor Medemblik foto's
+// Script voor Filmopname foto's
 
 var openPhotoSwipe = function() {
     var pswpElement = document.querySelectorAll('.pswp')[0];
@@ -11,42 +11,42 @@ var openPhotoSwipe = function() {
             h: 668
         },
         {
-            src: 'fotohaven.jpg',
+            src: '../Fotos/2014/fotohaven.jpg',
             w: 1000,
             h: 563
-        }
+        },
         {
-            src: 'fotostaal.jpg',
+            src: '../Fotos/2014/fotostaal.jpg',
             w: 1000,
             h: 563
-        }
+        },
         {
-            src: 'fotostrand1.jpg',
+            src: '../Fotos/2014/fotostrand1.jpg',
             w: 1000,
             h: 563
-        }
+        },
         {
-            src: 'fotostrand2.jpg',
+            src: '../Fotos/2014/fotostrand2.jpg',
             w: 1000,
             h: 563
-        }
+        },
         {
-            src: 'fotostrand3.jpg',
+            src: '../Fotos/2014/fotostrand3.jpg',
             w: 1000,
             h: 563
-        }
+        },
         {
-            src: 'fotostrand4.jpg',
-            w: 1000
+            src: '../Fotos/2014/fotostrand4.jpg',
+            w: 1000,
             h: 541
-        }
+        },
         {
-            src: 'fotostrand5.jpg',
+            src: '../Fotos/2014/fotostrand5.jpg',
             w: 1000,
             h: 561
-        }
+        },
         {
-            src: 'fotozbos.jpg',
+            src: '../Fotos/2014/fotozbos.jpg',
             w: 1000,
             h: 562
         }
