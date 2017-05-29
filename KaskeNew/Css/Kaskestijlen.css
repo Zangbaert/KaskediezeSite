@@ -151,6 +151,27 @@ div.palmboom {
   line-height: 110%;
 }
 
+main.luisteren{
+    margin-bottom: 1em;
+}
+
+th.luisteren {
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+button.leden {
+  background-color: rgb(255, 209, 83);
+  height: auto;
+  border-color: indigo;
+  box-shadow: 5px 5px 3px mediumpurple;
+  border-width: thick;
+  border-radius: 1.0em;
+  display: inline-block;
+  font-size: 1.5em;
+  color: indigo;
+}
+
 .right {
   text-align: right;
 }
