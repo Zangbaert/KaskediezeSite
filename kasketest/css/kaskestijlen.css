@@ -139,6 +139,11 @@ div.palmboom {
   line-height: 120%;
 }
 
+div.afdrukken {
+  display: flex;
+  justify-content: center;
+}
+
 .naam {
   margin: 0px;
   padding: 10px 0px;
