@@ -8,19 +8,8 @@
       <link rel="stylesheet" href="../css/kaskestijlen.css">
       <link rel="stylesheet" href="../css/navgeel.css">
 
-      <!-- Photoswipe necessaries -->
-      <link rel="stylesheet" href="../photoswipe/photoswipe.css">
-      <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
-          In the folder of skin CSS file there are also:
-          - .png and .svg icons sprite,
-          - preloader.gif (for browsers that do not support CSS animations) -->
-      <link rel="stylesheet" href="../photoswipe/defaultskin/default-skin.css">
-      <!-- Core JS file -->
-      <script src="../photoswipe/photoswipe.min.js"></script>
-      <!-- UI JS file -->
-      <script src="../photoswipe/photoswipe-ui-default.min.js"></script>
-      <script src="../photoswipe/history.js"></script>
-      <script src="../photoswipe/filmopname.js"></script>
+      <!-- Fancybox  needs: -->
+      <link rel="stylesheet" type="text/css" href="../fancybox/jquery.fancybox.min.css">
    </head>
 
    <body onload="openPhotoSwipe()">
@@ -49,94 +38,108 @@
 
       <main class=foto>
 
+        <article>
+          <h2 class="foto">Korenfestival mei 2017</h2>
+          <section>
+            <p>
+              Enige foto's gemaakt tijdens ons optreden bij het Saens Korensfestival.
+              Dit werd gehouden op zaterdagmiddag 20 mei j.l..
+              Het was georganiseerd door vrouwenkoor Chemistry.
+            </p>
+          </section>
+          <section>
+            <p>
+              <a class="foto" href="../fotos/2017/orig/wveer01.jpg" data-fancybox="saens">
+                <img src="../fotos/2017/duim/wveer01.jpg" />
+              </a>
+              <a class="foto" href="../fotos/2017/orig/wveer02.jpg" data-fancybox="saens">
+                <img src="../fotos/2017/duim/wveer02.jpg" />
+              </a>
+              <a class="foto" href="../fotos/2017/orig/wveer03.jpg" data-fancybox="saens">
+                <img src="../fotos/2017/duim/wveer03.jpg" />
+              </a>
+              <a class="foto" href="../fotos/2017/orig/wveer04.jpg" data-fancybox="saens">
+                <img src="../fotos/2017/duim/wveer04.jpg" />
+              </a>
+              <a class="foto" href="../fotos/2017/orig/wveer05.jpg" data-fancybox="saens">
+                <img src="../fotos/2017/duim/wveer05.jpg" />
+              </a>
+              <a class="foto" href="../fotos/2017/orig/wveer06.jpg" data-fancybox="saens">
+                <img src="../fotos/2017/duim/wveer06.jpg" />
+              </a>
+              <a class="foto" href="../fotos/2017/orig/wveer07.jpg" data-fancybox="saens">
+                <img src="../fotos/2017/duim/wveer07.jpg" />
+              </a>
+              <a class="foto" href="../fotos/2017/orig/wveer08.jpg" data-fancybox="saens">
+                <img src="../fotos/2017/duim/wveer08.jpg" />
+              </a>
+              <a class="foto" href="../fotos/2017/orig/wveer09.jpg" data-fancybox="saens">
+                <img src="../fotos/2017/duim/wveer09.jpg" />
+              </a>
+              <a class="foto" href="../fotos/2017/orig/wveer10.jpg" data-fancybox="saens">
+                <img src="../fotos/2017/duim/wveer10.jpg" />
+              </a>
+              <a class="foto" href="../fotos/2017/orig/wveer11.jpg" data-fancybox="saens">
+                <img src="../fotos/2017/duim/wveer11.jpg" />
+              </a>
+              <a class="foto" href="../fotos/2017/orig/wveer12.jpg" data-fancybox="saens">
+                <img src="../fotos/2017/duim/wveer12.jpg" />
+              </a>
+              </p>
+          </section>
+        </article>
+
+        <article>
           <h2 class="foto">Filmopname maart 2014</h2>
-
-          <article>
-             <section>
-                <p>
-                  In het koorweekend van medio maart 2014 namen we in de omgeving van
-                  Wijk aan Zee een Aantal filmpjes op.
-                  Het resultaat is elders op deze site te zien.
-                 </p>
-                 <p>
-                   Hier zijn een aantal foto's van de aktie die daar voor nodig was.
-                   In de straffe noordenwind werd van koorleden, dirigent en filmploeg
-                   een hoge inzet gevraagd.
-                  </p>
-            </section>
-
-            <section>
-              <!-- Root element of PhotoSwipe. Must have class pswp. -->
-              <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-                  <!-- Background of PhotoSwipe.
-                       It's a separate element as animating opacity is faster than rgba(). -->
-                  <div class="pswp__bg"></div>
-
-                  <!-- Slides wrapper with overflow:hidden. -->
-                  <div class="pswp__scroll-wrap">
-
-                      <!-- Container that holds slides.
-                          PhotoSwipe keeps only 3 of them in the DOM to save memory.
-                          Don't modify these 3 pswp__item elements, data is added later on. -->
-                      <div class="pswp__container">
-                          <div class="pswp__item"></div>
-                          <div class="pswp__item"></div>
-                          <div class="pswp__item"></div>
-                      </div>
-
-                      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-                      <div class="pswp__ui pswp__ui--hidden">
-
-                          <div class="pswp__top-bar">
-
-                              <!--  Controls are self-explanatory. Order can be changed. -->
-
-                              <div class="pswp__counter"></div>
-
-                              <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-                              <button class="pswp__button pswp__button--share" title="Share"></button>
-
-                              <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-                              <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-                              <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                              <!-- element will get class pswp__preloader--active when preloader is running -->
-                              <div class="pswp__preloader">
-                                  <div class="pswp__preloader__icn">
-                                    <div class="pswp__preloader__cut">
-                                      <div class="pswp__preloader__donut"></div>
-                                    </div>
-                                  </div>
-                              </div>
-                          </div>
-
-                          <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                              <div class="pswp__share-tooltip"></div>
-                          </div>
-
-                          <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-                          </button>
-
-                          <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-                          </button>
-
-                          <div class="pswp__caption">
-                              <div class="pswp__caption__center"></div>
-                          </div>
-
-                      </div>
-
-                  </div>
-
-              </div>
-
-             </section>
-          </article>
-
+          <section>
+            <p>
+              In het koorweekend van medio maart 2014 namen we in de omgeving van
+              Wijk aan Zee een Aantal filmpjes op.
+              Het resultaat is elders op deze site te zien.
+            </p>
+            <p>
+              Hier zijn een aantal foto's van de aktie die daar voor nodig was.
+              In de straffe noordenwind werd van koorleden, dirigent en filmploeg
+              een hoge inzet gevraagd.
+            </p>
+          </section>
+          <section>
+            <p>
+              <a class="foto" href="../fotos/2014/big/1tyde.jpg" data-fancybox="filmwknd">
+                <img src="../fotos/2014/duim/1tyde.jpg" />
+              </a>
+              <a class="foto" href="../fotos/2014/big/2haven.jpg" data-fancybox="filmwknd">
+                <img src="../fotos/2014/duim/2haven.jpg" />
+              </a>
+              <a class="foto" href="../fotos/2014/big/staal.jpg" data-fancybox="filmwknd">
+                <img src="../fotos/2014/duim/staal.jpg" />
+              </a>
+              <a class="foto" href="../fotos/2014/big/strand1.jpg" data-fancybox="filmwknd">
+                <img src="../fotos/2014/duim/strand1.jpg" />
+              </a>
+              <a class="foto" href="../fotos/2014/big/strand2.jpg" data-fancybox="filmwknd">
+                <img src="../fotos/2014/duim/strand2.jpg" />
+              </a>
+              <a class="foto" href="../fotos/2014/big/strand3.jpg" data-fancybox="filmwknd">
+                <img src="../fotos/2014/duim/strand3.jpg" />
+              </a>
+              <a class="foto" href="../fotos/2014/big/strand4.jpg" data-fancybox="filmwknd">
+                <img src="../fotos/2014/duim/strand4.jpg" />
+              </a>
+              <a class="foto" href="../fotos/2014/big/strand5.jpg" data-fancybox="filmwknd">
+                <img src="../fotos/2014/duim/strand5.jpg" />
+              </a>
+              <a class="foto" href="../fotos/2014/big/zbos.jpg" data-fancybox="filmwknd">
+                <img src="../fotos/2014/duim/zbos.jpg" />
+              </a>
+            </p>
+          </section>
+        </article>
       </main>
+
+      <!-- JS voor fancybox -->
+    	<script src="../js/jquery-3.1.1.min.js"></script>
+    	<script src="../fancybox/jquery.fancybox.min.js"></script>
 
       <footer>
          <p>&copy&nbsp1989-2017, Koor Kaskedieze, Krommenie, Nederland; alle rechten voorbehouden</p>

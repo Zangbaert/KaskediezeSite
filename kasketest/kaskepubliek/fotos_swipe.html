@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang=nl>
+
+   <head>
+      <meta charset="utf-8">
+      <title>Koor Kaskedieze Film</title>
+      <link rel="stylesheet" href="../css/kaskestijlen.css">
+      <link rel="stylesheet" href="../css/navgeel.css">
+
+      <!-- Photoswipe necessaries -->
+      <link rel="stylesheet" href="../photoswipe/photoswipe.css">
+      <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+          In the folder of skin CSS file there are also:
+          - .png and .svg icons sprite,
+          - preloader.gif (for browsers that do not support CSS animations) -->
+      <link rel="stylesheet" href="../photoswipe/defaultskin/default-skin.css">
+      <!-- Core JS file -->
+      <script src="../photoswipe/photoswipe.min.js"></script>
+      <!-- UI JS file -->
+      <script src="../photoswipe/photoswipe-ui-default.min.js"></script>
+      <script src="../photoswipe/history.js"></script>
+      <script src="../photoswipe/filmopname.js"></script>
+   </head>
+
+   <body onload="openPhotoSwipe()">
+
+      <header class="geeltop">
+        <h1>Koor Kaskedieze Foto's</h1>
+      </header>
+
+      <nav>
+
+         <ul>
+           <li><a href="./welkom.html">Welkom</a></li>
+           <li><a href="./naam.html">Naam</a></li>
+           <li><a href="./agenda.html">Agenda</a></li>
+           <li><a href="./repertoire.html">Repertoire</a></li>
+           <li><a href="./palmboom.html">Palmboom</a></li>
+           <li><a href="./film.html">Film</a></li>
+           <li><a href="./cd.html">CD</a></li>
+           <li><a>Fotos</a></li>
+           <li><a href="./contact.html">Contact</a></li>
+           <li><a href="./archief.html">Archief</a></li>
+           <li><a href="./leden.html">Leden</a></li>
+         </ul>
+
+      </nav>
+
+      <main class=foto>
+
+          <h2 class="foto">Filmopname maart 2014</h2>
+
+          <article>
+             <section>
+                <p>
+                  In het koorweekend van medio maart 2014 namen we in de omgeving van
+                  Wijk aan Zee een Aantal filmpjes op.
+                  Het resultaat is elders op deze site te zien.
+                 </p>
+                 <p>
+                   Hier zijn een aantal foto's van de aktie die daar voor nodig was.
+                   In de straffe noordenwind werd van koorleden, dirigent en filmploeg
+                   een hoge inzet gevraagd.
+                  </p>
+            </section>
+
+            <section>
+              <!-- Root element of PhotoSwipe. Must have class pswp. -->
+              <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+                  <!-- Background of PhotoSwipe.
+                       It's a separate element as animating opacity is faster than rgba(). -->
+                  <div class="pswp__bg"></div>
+
+                  <!-- Slides wrapper with overflow:hidden. -->
+                  <div class="pswp__scroll-wrap">
+
+                      <!-- Container that holds slides.
+                          PhotoSwipe keeps only 3 of them in the DOM to save memory.
+                          Don't modify these 3 pswp__item elements, data is added later on. -->
+                      <div class="pswp__container">
+                          <div class="pswp__item"></div>
+                          <div class="pswp__item"></div>
+                          <div class="pswp__item"></div>
+                      </div>
+
+                      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+                      <div class="pswp__ui pswp__ui--hidden">
+
+                          <div class="pswp__top-bar">
+
+                              <!--  Controls are self-explanatory. Order can be changed. -->
+
+                              <div class="pswp__counter"></div>
+
+                              <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                              <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                              <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                              <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                              <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                              <!-- element will get class pswp__preloader--active when preloader is running -->
+                              <div class="pswp__preloader">
+                                  <div class="pswp__preloader__icn">
+                                    <div class="pswp__preloader__cut">
+                                      <div class="pswp__preloader__donut"></div>
+                                    </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                              <div class="pswp__share-tooltip"></div>
+                          </div>
+
+                          <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                          </button>
+
+                          <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                          </button>
+
+                          <div class="pswp__caption">
+                              <div class="pswp__caption__center"></div>
+                          </div>
+
+                      </div>
+
+                  </div>
+
+              </div>
+
+             </section>
+          </article>
+
+      </main>
+
+      <footer>
+         <p>&copy&nbsp1989-2017, Koor Kaskedieze, Krommenie, Nederland; alle rechten voorbehouden</p>
+      </footer>
+
+   </body>
+</html>
