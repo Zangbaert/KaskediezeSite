@@ -1,59 +1,20 @@
-/* Flex stijlen Naam pagina voor Koor Kaskedieze website */
+/* Flex stijlen Koor Kaskedieze website */
 
-.flex-naam-container {
+.flex-container {
     display: -webkit-flex;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 700px;
-    height: 1400px;
-    background-color: lightyellow;
+    justify-content: space-between;
 }
 
-.flex-naam-item-1 {
-    background-color: LemonChiffon;
-    width: 300px;
-    min-width: 250px;
-    height: 500px;
-    margin: 5px;
+.flex-item {
+    align-self: center;
+    max-width: 300px;
+    margin: 10px;
     padding: 5px;
 }
 
-.flex-naam-item-2 {
-    background-color: LemonChiffon;
-    min-width: 250px;
-    min-height: 355px;
-    margin: auto;
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.flex-naam-item-3 {
-    background-color: LemonChiffon;
-    min-width: 270px;
-    min-height: 370px;
-    margin: auto;
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.flex-naam-item-4 {
-    background-color: LemonChiffon;
-    width: 300px;
-    min-width: 250px;
-    min-height: 300px;
-    padding: 5px;
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.flex-naam-item-5 {
-    background-color: LemonChiffon;
-    width: 700px;
-    min-width: 700px;
-    height: 230px;
-    margin: 5px;
-}
 
 /* not yet used */
 
