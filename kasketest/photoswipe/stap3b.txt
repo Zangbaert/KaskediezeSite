@@ -1,9 +1,0 @@
-Step 3: initialize
-Execute PhotoSwipe constructor. It accepts 4 arguments:
-.pswp element from step 2 (it must be added to DOM).
-PhotoSwipe UI class. If you included default photoswipe-ui-default.js, class will be PhotoSwipeUI_Default. Can be false.
-Array with objects (slides).
-Options.
-
-
-By default PhotoSwipe uses just 5 properties: src (path to image), w (image width), h (image height), msrc (path to small image placeholder, large image will be loaded on top), html

@@ -19,6 +19,10 @@ th div {
   border-color: steelblue;
 }
 
+td {
+  padding: 10px;
+}
+
 .links {
   text-align: left;
 }

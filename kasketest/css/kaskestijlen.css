@@ -118,6 +118,10 @@ h2.contact {
   text-decoration-style: solid;
 }
 
+section {
+  padding: 10px;
+}
+
 h3.contact {
   color: mediumblue;
   text-decoration: underline;
@@ -127,7 +131,7 @@ div.film {
   text-align: center;
 }
 
-main.welkom {
+div.welkom {
   margin: 10px 50px 10px 250px;
   font-size: 130%;
   line-height: 130%;
@@ -161,8 +165,10 @@ main.luisteren{
 }
 
 th.luisteren {
+  padding: 10px;
   font-size: 1.5em;
   font-weight: lighter;
+  text-align: left;
 }
 
 button.leden {
