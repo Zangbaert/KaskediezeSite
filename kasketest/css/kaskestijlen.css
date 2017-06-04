@@ -129,32 +129,29 @@ section {
 }
 
 h3.foto {
+  font-size: 1.0em;
   font-weight: lighter;
 }
 
-div.foto {
+p.foto {
     font-size: 0.7em;
-    max-width: 200px;
 }
 
-div.dia1 {
+div.dia {
   width: 250px;
   height: 200px;
+  border-color: indigo;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 1em;
+}
+
+div.honey {
   background-color: HoneyDew;
-  border-color: indigo;
-  border-style: solid;
-  border-width: 3px;
-  border-radius: 1em;
 }
 
-div.dia2 {
-  width: 250px;
-  height: 200px;
+div.lavender {
   background-color: LavenderBlush;
-  border-color: indigo;
-  border-style: solid;
-  border-width: 3px;
-  border-radius: 1em;
 }
 
 div.duim {
