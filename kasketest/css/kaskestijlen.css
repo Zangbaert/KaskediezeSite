@@ -146,12 +146,32 @@ div.dia {
   border-radius: 1em;
 }
 
+div.azure {
+  background-color: Azure;
+}
+
+div.beige {
+  background-color: Beige;
+}
+
 div.honey {
   background-color: HoneyDew;
 }
 
 div.lavender {
-  background-color: LavenderBlush;
+  background-color: Lavender;
+}
+
+div.blue {
+  background-color: LightSteelBlue;
+}
+
+div.ivory {
+  background-color: Ivory;
+}
+
+div.mistyrose {
+  background-color: mistyrose;
 }
 
 div.duim {
