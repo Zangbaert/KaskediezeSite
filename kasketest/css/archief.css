@@ -30,3 +30,7 @@ td {
   background-color: #fff;
   border:1px solid #fff;
 }
+
+.nowrap {
+    white-space: nowrap;
+}

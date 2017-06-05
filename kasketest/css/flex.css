@@ -1,5 +1,7 @@
 /* Flex stijlen Koor Kaskedieze website */
 
+/* gebruikt in film.html */
+
 .flex-container {
     display: -webkit-flex;
     display: flex;
@@ -28,7 +30,7 @@
           justify-content: center;
 }
 
-/* neither these: */
+/* gebruikt in fotos.html */
 
 .Aligner {
   display: flex;
