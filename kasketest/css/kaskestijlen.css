@@ -240,7 +240,14 @@ div.terug {
    color: lightyellow;
    text-decoration: none;
  }
-
+/* zou ipv <p> om de terug knop kunnen ...
+div.terug {
+  position: fixed;
+  top: 90%;
+  left: 50%;
+  z-index: 2;
+}
+*/
 .naam {
   margin: 0px;
   padding: 10px 0px;
