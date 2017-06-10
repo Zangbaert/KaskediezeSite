@@ -18,19 +18,19 @@ header {
 }
 
 .blauwtop {
-  background-image: url('../images/BlauwTop.png');
+  background-image: url('../images/blauwtop.png');
   background-color: rgb(208,232,233);
 
 }
 
 .geeltop {
-  background-image: url('../images/GeelTop.png');
+  background-image: url('../images/geeltop.png');
   background-color: rgb(249,242,186);
 
 }
 
 .groentop {
-  background-image: url('../images/GroenTop.png');
+  background-image: url('../images/groentop.png');
   background-color: rgb(217,235,160);
 
 }
