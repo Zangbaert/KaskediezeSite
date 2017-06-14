@@ -1,3 +1,4 @@
 .DS_Store
-/kasketest/kaskeleden/**
-/kasketest/media/**
+/httpdocs/**
+/kaskedieze/kaskeleden/**
+/kaskedieze/media/**
