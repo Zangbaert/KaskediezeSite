@@ -119,7 +119,8 @@ h2.contact {
   color: mediumblue;
   text-decoration: underline;
   text-decoration-color: mediumblue;
-  text-decoration-style: solid;
+  text-decoration-style: dotted;
+  -webkit-text-decoration-style: dotted;
 }
 
 section {
@@ -199,6 +200,8 @@ p.foto {
 h3.contact {
   color: mediumblue;
   text-decoration: underline;
+  text-decoration-style: dotted;
+  -webkit-text-decoration-style: dotted;
 }
 
 div.film {
