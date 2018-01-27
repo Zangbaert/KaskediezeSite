@@ -1,0 +1,53 @@
+/* Flex stijlen Koor Kaskedieze website */
+
+/* gebruikt in film.html */
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-item {
+    align-self: center;
+    max-width: 300px;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+/* not yet used */
+
+.vertical-container {
+  height: 300px;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+
+/* gebruikt in fotos.html */
+
+.Aligner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Aligner-item {
+  max-width: 50%;
+}
+
+.Aligner-item--top {
+  align-self: flex-start;
+}
+
+.Aligner-item--bottom {
+  align-self: flex-end;
+}

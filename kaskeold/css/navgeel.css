@@ -1,0 +1,34 @@
+/* Navigatiestijl geel voor Koor Kaskedieze website */
+
+nav {
+  padding: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(249,242,186);
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: indigo;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 2px 7px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: rgb(250,250,225);
+}
+
+nav li a:not([href]):hover {
+    background-color: rgb(249,242,186);
+}

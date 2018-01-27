@@ -6,7 +6,7 @@ h2 {
 }
 
 table {
-  width:700px;
+  max-width:800px;
   margin-bottom: 0.5em;
   font-family: Helvetica;
   font-size: 14px;
@@ -16,7 +16,7 @@ table {
   border:2px solid #ccc;
 }
 th {
-  width:700px;
+  max-width: 800px;
   height:35px;
   text-align:center;
   color:#000;

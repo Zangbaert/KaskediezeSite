@@ -1,0 +1,310 @@
+/* stijlen voor Koor Kaskedieze website */
+
+body {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 100%;
+  background-color: rgb(245, 245, 215);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+}
+
+header {
+  margin: 0px;
+  padding: 0px;
+  background-size: 700px 85px;
+  background-repeat: no-repeat;
+}
+
+.blauwtop {
+  background-image: url('../images/blauwtop.png');
+  background-color: rgb(208,232,233);
+
+}
+
+.geeltop {
+  background-image: url('../images/geeltop.png');
+  background-color: rgb(249,242,186);
+
+}
+
+.groentop {
+  background-image: url('../images/groentop.png');
+  background-color: rgb(217,235,160);
+
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+  height: 85px;
+  font-style: italic;
+  font-weight: lighter;
+  font-stretch: expanded;
+  font-size: 2.5em;
+  display: table-cell;
+  vertical-align: middle;
+  text-indent: 0.2em;
+}
+
+nav {
+  padding: 0px;
+}
+
+nav ul.blauw {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.blauw {
+  background-color: rgb(208,232,233);
+}
+
+.geel{
+  background-color: rgb(249,242,186);
+}
+
+.groen {
+  background-color: rgb(217,235,160);
+}
+
+.vertical-container {
+  height: 300px;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+
+main {
+  background-color: lightyellow;
+}
+
+main.foto {
+  background-image: url('../images/fotos_bkgnd.jpg');
+  background-repeat: repeat-y;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 1.3em;
+}
+
+h2.film {
+    padding-top: 10px;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.contact {
+    font-size: 1.0em;
+    line-height: 1.1em;
+}
+
+main.contact table tr p a {
+  text-decoration: none;
+}
+
+h2 {
+  padding-top: 10px;
+}
+
+h2.contact {
+  font-size: 1.4em;
+  color: mediumblue;
+  text-decoration: underline;
+  text-decoration-color: mediumblue;
+  text-decoration-style: dotted;
+  -webkit-text-decoration-style: dotted;
+}
+
+section {
+  padding-left: 10px;
+  padding-right: 10px;:
+}
+
+h3.foto {
+  font-size: 1.0em;
+  font-weight: lighter;
+}
+
+p.foto {
+    font-size: 0.7em;
+}
+
+div.dia {
+  width: 250px;
+  height: 200px;
+  border-color: indigo;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 1em;
+}
+
+div.azure {
+  background-color: Azure;
+}
+
+div.beige {
+  background-color: Beige;
+}
+
+div.honey {
+  background-color: HoneyDew;
+}
+
+div.lavender {
+  background-color: Lavender;
+}
+
+div.corn {
+  background-color: CornSilk;
+}
+div.papaya {
+  background-color: PapayaWhip;
+}
+
+div.blue {
+  background-color: LightSteelBlue;
+}
+
+div.ivory {
+  background-color: Ivory;
+}
+
+div.mistyrose {
+  background-color: mistyrose;
+}
+
+div.duim {
+  margin: auto;
+  display: flex;
+  align-self: center;
+}
+
+#wrapper {
+   height:100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+#wrapper td {
+   vertical-align: middle;
+   text-align: center;
+}
+
+p.foto {
+  font-size: 0.9em;
+  width: 250px;
+}
+
+h3.contact {
+  color: mediumblue;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  -webkit-text-decoration-style: dotted;
+}
+
+div.film {
+  text-align: center;
+}
+
+div.welkom {
+  margin: 10px 50px 10px 250px;
+  font-size: 130%;
+  line-height: 130%;
+}
+
+div.palmboom {
+  margin: 0 250px 10px 15px;
+  font-size: 120%;
+  line-height: 120%;
+}
+
+div.afdrukken {
+  display: flex;
+  justify-content: center;
+}
+
+div.terug {
+   margin: auto;
+   background-color: darkcyan;
+   border-radius: 0.3em;
+   border-color: darkblue;
+   border-style: solid;
+   border-width: 2px;
+   width: 100px;
+   height: 40px;
+   font-size: 1.0em;
+   text-align: center;
+   vertical-align: middle;
+ }
+
+ a.terug {
+   color: lightyellow;
+   text-decoration: none;
+ }
+/* zou ipv <p> om de terug knop kunnen ...
+div.terug {
+  position: fixed;
+  top: 90%;
+  left: 50%;
+  z-index: 2;
+}
+*/
+.naam {
+  margin: 0px;
+  padding: 10px 0px;
+  font-size: 120%;
+  line-height: 120%;
+}
+
+.film {
+  font-size: 110%;
+  line-height: 110%;
+}
+
+main.luisteren{
+  padding-top: 3px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+th.luisteren {
+  padding: 10px;
+  font-size: 1.5em;
+  font-weight: lighter;
+  text-align: left;
+}
+
+button.leden {
+  background-color: rgb(255, 209, 83);
+  height: auto;
+  border-color: indigo;
+  box-shadow: 5px 5px 3px mediumpurple;
+  border-width: thick;
+  border-radius: 1.0em;
+  display: inline-block;
+  font-size: 1.5em;
+  color: indigo;
+}
+
+.right {
+  text-align: right;
+}
+
+footer {
+  border-style: dotted;
+  border-color: indigo;
+  font-size: 0.9em;
+}
+
+footer p {
+  padding-left: 10px;
+}

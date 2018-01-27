@@ -1,0 +1,32 @@
+/* Float stijlen Naam pagina voor Koor Kaskedieze website */
+
+table {
+  table-layout: fixed;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-collapse: collapse;
+  border-spacing: 1em;
+  width: 700px;
+}
+
+th div {
+  padding: 10px;
+  font-size: 1.5em;
+  font-weight: lighter;
+  border: 2px;
+  border-style: solid;
+  border-radius: 0.4em;
+  border-color: steelblue;
+}
+
+td {
+  padding: 10px;
+}
+
+.links {
+  text-align: left;
+}
+
+.rechts {
+  text-align: right;
+}

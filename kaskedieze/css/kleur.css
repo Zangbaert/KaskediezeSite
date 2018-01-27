@@ -1,0 +1,70 @@
+/* Kleuren voor Koor Kaskedieze website */
+
+body.blauw > div > h1 {
+  width: 800px;
+  background-image: url('../images/blauwtop.png');
+  background-color: rgb(208,232,233);
+  background-size: cover;
+}
+
+body.geel > div > h1 {
+  width: 800px;
+  background-image: url('../images/geeltop.png');
+  background-color: rgb(249,242,186);
+  background-size: cover;
+}
+
+body.groen > div > h1 {
+  width: 800px;
+  background-image: url('../images/groentop.png');
+  background-color: rgb(217,235,160);
+  background-size: cover;
+}
+
+body.blauw > nav ul {
+  background-color: rgb(208,232,233);
+}
+
+body.blauw > nav li a:hover {
+    background-color: rgb(227,244,245);
+}
+
+body.blauw > nav li a:not([href]):hover {
+    background-color: rgb(208,232,233);
+}
+
+body.geel > nav ul {
+  background-color: rgb(249,242,186);
+}
+
+body.geel > nav li a:hover {
+    background-color: rgb(250,250,225);
+}
+
+body.geel > nav li a:not([href]):hover {
+    background-color: rgb(249,242,186);
+}
+
+body.groen > nav ul {
+  background-color: rgb(217,235,160);
+}
+
+body.groen > nav li a.hover {
+    background-color: rgb(236,244,212);
+}
+
+body.groen > nav li a:not([href]):hover {
+    background-color: rgb(217,235,160);
+}
+
+body.blauw > footer {
+  background-color: rgb(208,232,233);
+}
+
+body.geel > footer {
+  background-color: rgb(249,242,186);
+}
+
+body.groen > footer {
+  background-color: rgb(217,235,160);
+}

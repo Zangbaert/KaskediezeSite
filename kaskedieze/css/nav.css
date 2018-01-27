@@ -1,0 +1,56 @@
+/* Navigatiestijl blauw voor Koor Kaskedieze website */
+
+nav {
+  padding: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: indigo;
+    text-align: left;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+nav ul ul li {
+  float: none;
+  display:  list-item block;
+  position: relative;
+}
+
+nav > ul > li:first-child > a {
+  color: blue;
+  font-style: italic;
+}
+
+nav ul ul li {
+  text-align: left;
+}
+
+li > ul {
+  display: none;
+  position: absolute;
+}
+
+li:hover > ul {
+  display: list-item;
+}
+
+li > a:after {
+  content:  '*';
+}
+
+li > a:only-child:after {
+  content: '';
+}

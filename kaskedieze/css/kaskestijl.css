@@ -1,0 +1,310 @@
+/* stijlen voor Koor Kaskedieze website */
+
+body {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 100%;
+  background-color: rgb(245, 245, 215);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+}
+
+/* kop */
+
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 45px;
+  font-style: italic;
+  font-weight: lighter;
+  font-stretch: expanded;
+  font-size: 1.6em;
+  display: table-cell;
+  vertical-align: middle;
+  text-indent: 0.2em;
+}
+
+/* nav algemeen */
+/* main */
+
+main {
+  padding-top: 15px;
+  background-color: lightyellow;
+}
+/* RWD Grid Viwew */
+
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+/* werkt niet voor centreren row verticaal op contact pagina
+.table-container {
+	display: table;
+}
+
+.table-item {
+	display: table-cell;
+	vertical-align: middle;
+}
+*/
+
+/* voor RWD Grid images */
+.links {
+  float: left;
+  padding: 15px;
+}
+.rechts {
+  float: right;
+  padding: 15px;
+}
+
+/* voor iframe RWD */
+
+.intrinsic-container {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+}
+
+/* 16x9 Aspect Ratio */
+.intrinsic-container-16x9 {
+  padding-bottom: 56.25%;
+}
+
+/* 4x3 Aspect Ratio */
+.intrinsic-container-4x3 {
+  padding-bottom: 75%;
+}
+
+.intrinsic-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+h2 {
+  margin-top: 0px;
+  font-weight: normal;
+  font-size: 1.1em;
+  padding: 10px;
+  border: 2px;
+  border-style: solid;
+  border-color: SteelBlue;
+  border-radius: 10px;
+}
+
+h3{
+  font-weight: bold;
+  font-size: 1.0em;
+}
+
+div.dia {
+  width: 250px;
+  height: 200px;
+  border-color: indigo;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 1em;
+  margin: auto;
+}
+
+/* centreert het plaatje in de dia: */
+#wrapper {
+   height:100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+#wrapper td {
+   vertical-align: middle;
+   text-align: center;
+}
+
+div.azure {
+  background-color: Azure;
+}
+
+div.beige {
+  background-color: Beige;
+}
+
+div.honey {
+  background-color: HoneyDew;
+}
+
+div.lavender {
+  background-color: Lavender;
+}
+
+div.corn {
+  background-color: CornSilk;
+}
+div.papaya {
+  background-color: PapayaWhip;
+}
+
+div.blue {
+  background-color: LightSteelBlue;
+}
+
+div.ivory {
+  background-color: Ivory;
+}
+
+div.mistyrose {
+  background-color: mistyrose;
+}
+
+div.duim {
+  margin: auto;
+  display: flex;
+  align-self: center;
+}
+
+p.foto {
+  font-size: 1.0em;
+  font-weight: lighter;
+}
+
+.trechts {
+  text-align: right;
+}
+
+.tekst {
+  padding: 15px;
+}
+
+.film {
+  max-width: 560px;
+  margin: auto;
+  padding-bottom: 25px;
+}
+
+img {
+  max-width: 100%;
+  background-size: contain;
+}
+
+h3.contact {
+  color: mediumblue;
+  text-decoration: underline;
+}
+
+h2.leden {
+  border: 0px;
+}
+
+.contact {
+    font-size: 1.0em;
+    line-height: 1.1em;
+}
+
+div.terug {
+   margin: auto;
+   background-color: darkcyan;
+   border-radius: 0.3em;
+   border-color: darkblue;
+   border-style: solid;
+   border-width: 2px;
+   width: 100px;
+   height: 40px;
+   font-size: 1.0em;
+   text-align: center;
+   vertical-align: middle;
+ }
+
+ a.terug {
+   color: lightyellow;
+   text-decoration: none;
+ }
+
+ button.leden {
+   background-color: rgb(255, 209, 83);
+   height: auto;
+   border-color: indigo;
+   box-shadow: 5px 5px 3px mediumpurple;
+   border-width: thick;
+   border-radius: 1.0em;
+   display: inline-block;
+   font-size: 1.5em;
+   color: indigo;
+ }
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.kolom {
+  width: 50%;
+  flex-direction: column;
+}
+
+.item {
+  padding: 15px;
+}
+
+th.luisteren {
+  padding: 10px;
+  font-size: 1.0em;
+  font-weight: lighter;
+  width: 50%;
+  text-align: left;
+}
+
+footer {
+  border-style: dotted;
+  border-color: indigo;
+  font-size: 0.9em;
+  padding-left: 10px;
+}
