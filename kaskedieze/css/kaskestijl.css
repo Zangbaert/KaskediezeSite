@@ -54,6 +54,13 @@ main {
 [class*="col-"] {
     width: 100%;
 }
+@media only screen and (max-width: 599px) {
+  body {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
 @media only screen and (min-width: 600px) {
     /* For tablets: */
     .col-m-1 {width: 8.33%;}
@@ -84,6 +91,7 @@ main {
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 }
+
 /* werkt niet voor centreren row verticaal op contact pagina
 .table-container {
 	display: table;
