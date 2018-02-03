@@ -27,7 +27,6 @@ h1 {
   text-indent: 0.2em;
 }
 
-/* nav algemeen */
 /* main */
 
 main {
@@ -111,6 +110,11 @@ main {
 .rechts {
   float: right;
   padding: 15px;
+}
+
+.centreer {
+  display: table;
+  text-align: center;
 }
 
 /* voor iframe RWD */
