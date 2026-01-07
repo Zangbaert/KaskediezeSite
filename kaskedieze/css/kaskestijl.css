@@ -233,6 +233,10 @@ div.aqua {
   background-color: Aquamarine;
 }
 
+div.steelblue {
+  background-color: steelblue;
+}
+
 div.duim {
   margin: auto;
   display: flex;
